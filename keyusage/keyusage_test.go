@@ -10,6 +10,10 @@ import (
 	"fmt"
 	"encoding/hex"
 )
+/*
+	TODO: btcsuite/btcd link should be replace with Aaibutil links. In order to achive that
+    	  all links related to btcd and btcutil will need to be updated.
+*/
 
 var mnemonic string
 
