@@ -9,13 +9,13 @@ import (
 
 func ExampleAmount() {
 
-	a := btcutil.Amount(0)
+	a := aibutil.Amount(0)
 	fmt.Println("Zero Satoshi:", a)
 
-	a = btcutil.Amount(1e8)
+	a = aibutil.Amount(1e8)
 	fmt.Println("100,000,000 Satoshis:", a)
 
-	a = btcutil.Amount(1e5)
+	a = aibutil.Amount(1e5)
 	fmt.Println("100,000 Satoshis:", a)
 	// Output:
 	// Zero Satoshi: 0 BTC
@@ -24,28 +24,28 @@ func ExampleAmount() {
 }
 
 func ExampleNewAmount() {
-	amountOne, err := btcutil.NewAmount(1)
+	amountOne, err := aibutil.NewAmount(1)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 	fmt.Println(amountOne) //Output 1
 
-	amountFraction, err := btcutil.NewAmount(0.01234567)
+	amountFraction, err := aibutil.NewAmount(0.01234567)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 	fmt.Println(amountFraction) //Output 2
 
-	amountZero, err := btcutil.NewAmount(0)
+	amountZero, err := aibutil.NewAmount(0)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
 	fmt.Println(amountZero) //Output 3
 
-	amountNaN, err := btcutil.NewAmount(math.NaN())
+	amountNaN, err := aibutil.NewAmount(math.NaN())
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -59,13 +59,13 @@ func ExampleNewAmount() {
 }
 
 func ExampleAmount_unitConversions() {
-	amount := btcutil.Amount(44433322211100)
+	amount := aibutil.Amount(44433322211100)
 
-	fmt.Println("Satoshi to kBTC:", amount.Format(btcutil.AmountKiloBTC))
+	fmt.Println("Satoshi to kBTC:", amount.Format(aibutil.AmountKiloBTC))
 	fmt.Println("Satoshi to BTC:", amount)
-	fmt.Println("Satoshi to MilliBTC:", amount.Format(btcutil.AmountMilliBTC))
-	fmt.Println("Satoshi to MicroBTC:", amount.Format(btcutil.AmountMicroBTC))
-	fmt.Println("Satoshi to Satoshi:", amount.Format(btcutil.AmountSatoshi))
+	fmt.Println("Satoshi to MilliBTC:", amount.Format(aibutil.AmountMilliBTC))
+	fmt.Println("Satoshi to MicroBTC:", amount.Format(aibutil.AmountMicroBTC))
+	fmt.Println("Satoshi to Satoshi:", amount.Format(aibutil.AmountSatoshi))
 
 	// Output:
 	// Satoshi to kBTC: 444.333222111 kBTC
