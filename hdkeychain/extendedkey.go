@@ -19,8 +19,8 @@ import (
 	"math/big"
 
 	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibd/chaincfg/chainhash"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/base58"
 )
