@@ -1,4 +1,4 @@
-package btcutil_test
+package aibutil_test
 
 import (
 	"fmt"
