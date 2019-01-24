@@ -1,18 +1,20 @@
 package keyusage
 
 import (
+	"encoding/hex"
+	"fmt"
 	"testing"
+
 	"github.com/iobond/aibgo/btcec"
 	"github.com/iobond/aibgo/chaincfg"
 	. "github.com/iobond/aibutil"
 	"github.com/iobond/aibutil/hdkeychain"
 	"github.com/tyler-smith/go-bip39"
-	"fmt"
-	"encoding/hex"
 )
+
 /*
 	TODO: iobond/aibgo link should be replace with Aaibutil links. In order to achive that
-    	  all links related to btcd and btcutil will need to be updated.
+    	  all links related to aibgo and aibutil will need to be updated.
 */
 
 var mnemonic string
