@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/iobond/aibgo/chaincfg/chainhash"
+	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil/bloom"
 )

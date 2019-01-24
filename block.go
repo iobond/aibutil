@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/iobond/aibgo/chaincfg/chainhash"
+	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibgo/wire"
 )
 

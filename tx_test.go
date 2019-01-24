@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibgo/chaincfg/chainhash"
+	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibutil"
 	"github.com/davecgh/go-spew/spew"
 )

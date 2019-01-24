@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iobond/aibgo/chaincfg/chainhash"
+	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 	"github.com/iobond/aibutil/coinset"

@@ -10,7 +10,7 @@ import (
 
 	"github.com/iobond/aibgo/btcec"
 	"github.com/iobond/aibgo/chaincfg"
-	"github.com/iobond/aibgo/chaincfg/chainhash"
+	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibutil/base58"
 )
 
