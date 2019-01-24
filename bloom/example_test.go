@@ -9,8 +9,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil/bloom"
 )
 

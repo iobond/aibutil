@@ -9,9 +9,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/txscript"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/txscript"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 )
 

@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil/txsort"
 )
 

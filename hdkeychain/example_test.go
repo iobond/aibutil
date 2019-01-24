@@ -7,7 +7,7 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibgo/chaincfg"
 	"github.com/iobond/aibutil/hdkeychain"
 )
 

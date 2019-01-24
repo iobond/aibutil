@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/iobond/aibd/btcec"
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/btcec"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibutil"
 	"github.com/iobond/aibutil/base58"
 )

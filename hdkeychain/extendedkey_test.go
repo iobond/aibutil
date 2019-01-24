@@ -16,7 +16,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibgo/chaincfg"
 )
 
 // TestBIP0032Vectors tests the vectors provided by [BIP32] to ensure the

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibgo/chaincfg"
 	"github.com/iobond/aibutil"
 	"golang.org/x/crypto/ripemd160"
 )

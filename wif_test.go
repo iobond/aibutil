@@ -7,8 +7,8 @@ package aibutil_test
 import (
 	"testing"
 
-	"github.com/iobond/aibd/btcec"
-	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibgo/btcec"
+	"github.com/iobond/aibgo/chaincfg"
 	. "github.com/iobond/aibutil"
 )
 

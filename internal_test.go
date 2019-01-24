@@ -12,7 +12,7 @@ interface. The functions are only exported while the tests are being run.
 package aibutil
 
 import (
-	"github.com/iobond/aibd/btcec"
+	"github.com/iobond/aibgo/btcec"
 	"github.com/iobond/aibutil/base58"
 	"github.com/iobond/aibutil/bech32"
 	"golang.org/x/crypto/ripemd160"
