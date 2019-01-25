@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/iobond/aibgo/btcec"
-	"github.com/iobond/aibgo/chaincfg"
-	"github.com/iobond/aibutil/base58"
-	"github.com/iobond/aibutil/bech32"
+	btcec "github.com/iobond/aibgo/btcec"
+	chaincfg "github.com/iobond/aibgo/chaincfg"
+	base58 "github.com/iobond/aibutil/base58"
+	bech32 "github.com/iobond/aibutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

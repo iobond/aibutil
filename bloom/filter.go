@@ -12,7 +12,7 @@ import (
 	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibgo/txscript"
 	"github.com/iobond/aibgo/wire"
-	"github.com/iobond/aibutil"
+	aibutil "github.com/iobond/aibutil"
 )
 
 // ln2Squared is simply the square of the natural log of 2.

@@ -10,7 +10,7 @@ import (
 	"io"
 
 	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
-	"github.com/iobond/aibgo/wire"
+	wire "github.com/iobond/aibgo/wire"
 )
 
 // OutOfRangeError describes an error due to accessing an element that is out

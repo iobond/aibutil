@@ -11,9 +11,9 @@ import (
 	"math"
 
 	chainhash "github.com/iobond/aibgo/chaincfg/chainhash"
-	"github.com/iobond/aibgo/txscript"
-	"github.com/iobond/aibgo/wire"
-	"github.com/iobond/aibutil/gcs"
+	txscript "github.com/iobond/aibgo/txscript"
+	wire "github.com/iobond/aibgo/wire"
+	gcs "github.com/iobond/aibutil/gcs"
 )
 
 const (
